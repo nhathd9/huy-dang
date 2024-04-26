@@ -57,6 +57,8 @@ const Header = () => {
     <div 
       style={scrolledPastHero ? {backdropFilter: 'blur(8px)'} : {background: 'none'}}
       className={`
+        text-xs
+        md:text-md
         fixed 
         w-screen 
         box-border 
@@ -83,8 +85,8 @@ const Header = () => {
         >
         <nav className='h-full flex flex-row justify-between items-center md:px-3'>
         <div className='flex flex-row items-center'>
-            <Link href='/#home' className='text-2xl md:mr-12 animate-[translateXRight_1s_ease-out] transition-all duration-1000 ease-out hover:opacity-50'>HD</Link>
-            <ul className='flex flex-row text-text justify-end'>
+            <Link href='/#home' className='text-lg md:text-2xl md:mr-12 animate-[translateXRight_1s_ease-out] transition-all duration-1000 ease-out hover:opacity-50'>HD</Link>
+            <ul className='flex flex-row text-text justify-end ml-3'>
                 {
                 links.map((link, index) => (
                     <li 
@@ -99,7 +101,7 @@ const Header = () => {
                 }
             </ul>
           </div>
-          <div className='flex flex-row items-center text-2xl'>
+          <div className='flex flex-row items-center text-lg md:text-2xl'>
             <a href='https://www.instagram.com/nhathd03/?hl=en' className='mx-2 transition-all duration-500 ease-out hover:opacity-50'>
                 <FaInstagram/>
             </a>

@@ -59,12 +59,12 @@ const About = () => {
           style={{
             background: 'rgb(38, 91, 237, 0.2)'
           }}
-          className='w-24 py-1 mb-2 text-center border rounded-full text-royal-blue'
+          className='text-xs md:text-md w-16 md:w-24 py-1 mb-2 text-center border rounded-full text-royal-blue'
         >
           ABOUT
         </p>
-        <h2 className={`my-3 text-4xl ${animate ? 'animate-text' : ''}`}><strong>{roles[currentRoleIndex]}</strong></h2>
-        <p className='my-2'>
+        <h2 className={`my-1 md:my-3 text-2xl md:text-4xl ${animate ? 'animate-text' : ''}`}><strong>{roles[currentRoleIndex]}</strong></h2>
+        <p className='my-2 text-sm md:text-md'>
           Hey, I&lsquo;m Huy, a passionate freelancer from Toronto, Canada, bringing you <strong>web and email marketing solutions from the future</strong>.
           My expertise is developing next-level websites and marketing strategies that push boundaries and deliver results.
         </p>
