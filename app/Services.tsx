@@ -36,7 +36,7 @@ const Services = () => {
       <h2 className='my-4 text-2xl md:text-4xl text-center md:text-left'><strong>Elevate your brand, ignite your future</strong></h2>
       <p className='max-w-lg text-sm md:text-md text-center'>Secure your seat, fasten your seatbelt, and join me on a interstellar journey to turn your brand vision into a next level reality.</p>
         <div className='w-full flex flex-row justify-center flex-wrap mt-20'>
-        <a href='#contact' className='w-full md:w-fit rounded-md text-sm md:text-md bg-card p-0 md:p-10 pb-20 m-3 transition-all duration-500 ease-out hover:opacity-70'>
+        <a href='#contact' className='w-full md:w-fit rounded-md text-sm md:text-md bg-card p-3 pt-5 md:p-10 pb-20 m-3 transition-all duration-500 ease-out hover:opacity-70'>
             <h2 className='text-3xl mb-2 text-royal-blue'>Website</h2>
             <p className='w-72 md:w-96 mb-4'>There are no limits to your website vision — Let&lsquo;s make it happen!</p>
             <div className='my-2 flex flex-row items-center'>
@@ -64,7 +64,7 @@ const Services = () => {
               <p>Hosting (including domain) setup</p>
             </div>
         </a>
-        <a href='#contact' className='w-full md:w-fit rounded-md bg-card p-0 md:p-10 pb-20 m-3 transition-all duration-500 ease-out hover:opacity-70'>
+        <a href='#contact' className='w-full md:w-fit rounded-md bg-card p-3 pt-5 md:p-10 pb-20 m-3 transition-all duration-500 ease-out hover:opacity-70'>
             <h2 className='text-3xl mb-2 text-royal-blue'>Copywriting</h2>
             <p className='w-72 md:w-96 mb-4'>Turn your brand&lsquo;s story into a captivating narrative that leaves a lasting impact on your audience.</p>
             <div className='my-2 flex flex-row'>
@@ -96,7 +96,7 @@ const Services = () => {
               <p>Unlimited revisions</p>
             </div >
         </a>
-        <a href='#contact' className='w-full md:w-fit rounded-md bg-card p-0 md:p-10 pb-20 m-3 transition-all duration-500 ease-out hover:opacity-70'>
+        <a href='#contact' className='w-full md:w-fit rounded-md bg-card p-3 pt-5 md:p-10 pb-20 m-3 transition-all duration-500 ease-out hover:opacity-70'>
             <h2 className='text-3xl mb-2 text-royal-blue'>Email Marketing</h2>
             <p className='w-72 md:w-96 mb-4'>Transform your email subscribers into paying customers with the power of email marketing!</p>
             <div className='my-2 flex flex-row'>
