@@ -1,6 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa6';
 
 const Header = () => {
   const [scrolledPastHero, setScrolledPastHero] = useState(false);
@@ -81,21 +82,34 @@ const Header = () => {
           `}
         >
         <nav className='h-full flex flex-row justify-between items-center md:px-3'>
-          <Link href='/#home' className='text-2xl md:mr-12 animate-[translateXRight_1s_ease-out] transition-all duration-1000 ease-out hover:opacity-50'>HD</Link>
-          <ul className='flex flex-row text-text justify-end'>
-            {
-              links.map((link, index) => (
-                <li 
-                  key={index}
-                  style={{animation: `translateXLeft ${link.animationTiming} ease-out`}}
-                  className={`mx-2 md:mx-4 xl:mx-6 transition-all duration-1000 ease-out hover:opacity-50`}>
-                <Link href={`/${link.to}`} >
-                  {link.name}
-                </Link>
-              </li>
-              ))
-            }
-          </ul>
+        <div className='flex flex-row items-center'>
+            <Link href='/#home' className='text-2xl md:mr-12 animate-[translateXRight_1s_ease-out] transition-all duration-1000 ease-out hover:opacity-50'>HD</Link>
+            <ul className='flex flex-row text-text justify-end'>
+                {
+                links.map((link, index) => (
+                    <li 
+                    key={index}
+                    style={{animation: `translateXLeft ${link.animationTiming} ease-out`}}
+                    className={`mx-2 md:mx-4 xl:mx-6 transition-all duration-1000 ease-out hover:opacity-50`}>
+                    <Link href={`/${link.to}`} >
+                    {link.name}
+                    </Link>
+                </li>
+                ))
+                }
+            </ul>
+          </div>
+          <div className='flex flex-row items-center text-2xl'>
+            <a href='https://www.instagram.com/nhathd03/?hl=en' className='mx-2 transition-all duration-500 ease-out hover:opacity-50'>
+                <FaInstagram/>
+            </a>
+            <a href='https://www.facebook.com/huy.dang.5249349/' className='mx-2 transition-all duration-500 ease-out hover:opacity-50'>
+                <FaFacebook/>
+            </a>
+            <a href='https://twitter.com/nhathd03' className='mx-2 transition-all duration-500 ease-out hover:opacity-50'>
+                <FaTwitter/>
+            </a>
+          </div>
         </nav>
       </header>
     </div>
