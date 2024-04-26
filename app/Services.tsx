@@ -37,7 +37,7 @@ const Services = () => {
         <div className='w-full flex flex-row justify-center flex-wrap mt-20'>
         <a href='#contact' className='w-fit rounded-md bg-card p-10 pb-20 m-3 transition-all duration-500 ease-out hover:opacity-70'>
             <h2 className='text-3xl mb-2 text-royal-blue'>Website</h2>
-            <p className='w-96 mb-4'>There are no limits to your website vision — Let's make it happen!</p>
+            <p className='w-96 mb-4'>There are no limits to your website vision — Let&lsquo;s make it happen!</p>
             <div className='my-2 flex flex-row items-center'>
               <IoCheckmarkCircle className='text-xl mr-2' />
               <p>Unique, modern, customized design</p>
@@ -65,7 +65,7 @@ const Services = () => {
         </a>
         <a href='#contact' className='w-fit rounded-md bg-card p-10 pb-20 m-3 transition-all duration-500 ease-out hover:opacity-70'>
             <h2 className='text-3xl mb-2 text-royal-blue'>Copywriting</h2>
-            <p className='w-96 mb-4'>Turn your brand's story into a captivating narrative that leaves a lasting impact on your audience.</p>
+            <p className='w-96 mb-4'>Turn your brand&lsquo;s story into a captivating narrative that leaves a lasting impact on your audience.</p>
             <div className='my-2 flex flex-row'>
               <IoCheckmarkCircle className='text-xl mr-2 mt-0.5' />
               <p>Email newsletters and promotions</p>
