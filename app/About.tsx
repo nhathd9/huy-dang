@@ -65,7 +65,7 @@ const About = () => {
         </p>
         <h2 className={`my-3 text-4xl ${animate ? 'animate-text' : ''}`}><strong>{roles[currentRoleIndex]}</strong></h2>
         <p className='my-2'>
-          Hey, I'm Huy, a passionate freelancer from Toronto, Canada, bringing you <strong>web and email marketing solutions from the future</strong>.
+          Hey, I&lsquo;m Huy, a passionate freelancer from Toronto, Canada, bringing you <strong>web and email marketing solutions from the future</strong>.
           My expertise is developing next-level websites and marketing strategies that push boundaries and deliver results.
         </p>
       </div>
