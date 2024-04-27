@@ -33,7 +33,7 @@ const Contact: FC = () => {
         md:flex-row 
         border-t
         py-20
-        lg:py-0
+        lg:py-32
       '
     >
       <div 
@@ -48,7 +48,7 @@ const Contact: FC = () => {
       >
         <div className='w-10/12 max-w-2xl px-5 pb-16 md:px-10 md:pb-24 xl:px-20'>
           <p className='text-3xl md:text-4xl text-left pb-4 text-royal-blue'>Got a problem to solve?</p>
-          <p className='text-sm md:text-md text-left mb-3'>Get your space suit and let&lsquo;s work together to take your business to the next level!</p>
+          <p className='text-sm md:text-base text-left mb-3'>Get your space suit and let&lsquo;s work together to take your business to the next level!</p>
         </div>
       </div>
       <div className='w-screen md:w-1/2 md:px-10 flex flex-row justify-center md:justify-normal xl:px-20'>
