@@ -11,7 +11,7 @@ const Header = () => {
   const links = [
     {
       name: 'About',
-      to: 'about',
+      to: '#about',
       animationTiming: '0.7s'
     },
     {
